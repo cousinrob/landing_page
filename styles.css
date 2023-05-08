@@ -1,6 +1,8 @@
 body {
     font-family: Roboto, Tahoma, sans-serif;
     margin: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 #header {
@@ -54,4 +56,40 @@ body {
     border-style: none;
     border-radius: 8px;
 }
+
+#options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 1000;
+}
+
+#gallery {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.item img{
+    display: flex;
+    flex: 0 0 auto;
+    width: 150px;
+    height: 150px;
+    border-style: solid #3882f6;
+    border-radius: 8px;
+}
+
+.item {
+    width: 150px;
+    text-align: center;
+    color: #1F2937;
+}
+
 
