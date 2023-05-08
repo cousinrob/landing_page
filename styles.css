@@ -17,9 +17,41 @@ body {
     font-weight: 900;
 }
 
-#links {
+#herosub, #links {
     color: #E5E7EB;
     font-size: 18px;
+}
+
+#links {
     display: flex;
     gap: 15px;
 }
+
+#hero {
+    background-color: #1F2937;
+    max-height: 250px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 100px;
+}
+
+#herotext {
+    max-width: 500px;
+}
+
+#herotitle {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 1000;
+}
+
+#one {
+    background-color: #3882f6;
+    color: #F9FAF8;
+    font-size: 15px;
+    padding: 8px 36px;
+    border-style: none;
+    border-radius: 8px;
+}
+
