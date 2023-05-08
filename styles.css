@@ -159,3 +159,11 @@ h2 {
     border: 1px #E5E7EB solid;
     padding: 5px 25px;
 }
+
+#footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
